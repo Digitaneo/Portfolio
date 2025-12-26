@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -289,43 +290,63 @@
                         design partner to help take your business to the next level.</p>
                     </div>
                   </div>
-					<div class="contact-area">
-  <div class="leave-comments-area">
-    <div class="comments-box">
-      <form action="https://formspree.io/f/mqekznlo" method="POST">
-        <div class="row gx-3">
-          
-          <div class="col-md-12">
-            <div class="mb-4">
-              <label class="form-label">Your Email</label>
-              <input type="email" name="email" required class="form-control shadow-none" placeholder="email@example.com">
-            </div>
-          </div>
-
-          <div class="col-md-12">
-            <div class="mb-4">
-              <label class="form-label">Your Message</label>
-              <textarea name="message" required class="form-control shadow-none" rows="5" placeholder="How can we help you?"></textarea>
-            </div>
-          </div>
-
-          <div class="col-md-12">
-            <button class="submit-btn" type="submit">
-              Send Message
-              <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17.5 11.6665V6.6665H12.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M17.5 6.6665L10 14.1665L2.5 6.6665" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-          </div>
-
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-					
-					<p class="ajax-response mb-0"></p>
+                  <div class="contact-area">
+                    <div class="leave-comments-area">
+                      <div class="comments-box">
+                        <form id="contact-form" action="assets/mail.php" method="POST">
+                          <div class="row gx-3">
+                            <div class="col-md-6">
+                              <div class="mb-4">
+                                <label class="form-label">Name</label>
+                                <input name="name" required type="text" class="form-control shadow-none" placeholder="Enter your name">
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="mb-4">
+                                <label class="form-label">Email</label>
+                                <input name="email" required type="email" class="form-control shadow-none" placeholder="Enter your email">
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="mb-4">
+                                <label class="form-label">Subject</label>
+                                <input name="subject" required type="text" class="form-control shadow-none" placeholder="Subject">
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="mb-4">
+                                <label class="form-label">Budget</label>
+                                <select name="budget" required class="form-select shadow-none">
+                                  <option disabled selected>Select budget...</option>
+                                  <option value="$5000">$5000</option>
+                                  <option value="$5000 - $1000">$5000 - $10000</option>
+                                  <option value="$10000 - $2000">$10000 - $20000</option>
+                                  <option value="$20000">$20000+</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="mb-4">
+                                <label class="form-label">Comment</label>
+                                <textarea name="message" class="form-control shadow-none" rows="4"
+                                  placeholder="Type details about your inquiry"></textarea>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <button class="submit-btn" type="submit">
+                                Send Message
+                                <svg class="icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                  xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M17.5 11.6665V6.6665H12.5" stroke="white" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                  <path d="M17.5 6.6665L10 14.1665L2.5 6.6665" stroke="white" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                        <p class="ajax-response mb-0"></p>
                       </div>
                     </div>
                     <div class="contact-map-area">
@@ -480,16 +501,15 @@
   </div>
 
   <!-- JS here -->
-  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/ajax-form.js"></script>
-  <script src="assets/js/clipboard.min.js"></script>
-  <script src="assets/js/slick.min.js"></script>
-  <script src="assets/js/script.js"></script>
+  <script src="assets/js/vendor/jquery-3.6.0.min.js" type="f0afb357dc011b3d75a73316-text/javascript"></script>
+  <script src="assets/js/bootstrap.bundle.min.js" type="f0afb357dc011b3d75a73316-text/javascript"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js" type="f0afb357dc011b3d75a73316-text/javascript"></script>
+  <script src="assets/js/ajax-form.js" type="f0afb357dc011b3d75a73316-text/javascript"></script>
+  <script src="assets/js/clipboard.min.js" type="f0afb357dc011b3d75a73316-text/javascript"></script>
+  <script src="assets/js/slick.min.js" type="f0afb357dc011b3d75a73316-text/javascript"></script>
+  <script src="assets/js/script.js" type="f0afb357dc011b3d75a73316-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f0afb357dc011b3d75a73316-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"c32bf3241a834804b12587e4e14e38d2","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 
 
-
 </html>
-
